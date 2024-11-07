@@ -29,7 +29,7 @@ export const Home = () => {
           </div>
         ) : (
           <Box>
-            <Box>
+            <Box mt={"50px"}>
               {data?.map((item) => (
                 <Card item={item} key={item.id} />
               ))}
